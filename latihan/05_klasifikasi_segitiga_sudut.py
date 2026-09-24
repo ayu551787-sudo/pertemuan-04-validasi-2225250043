@@ -1,15 +1,18 @@
-a = float(input("sudut A: "))
-b = float(input("sudut B: "))
-c = float(input("sudut C: "))
+# Latihan 5 Klasifikasi Segitiga Berdasarkan Sudut
+
+a = float(input("Sudut A: "))
+b = float(input("Sudut B: "))
+c = float(input("Sudut C: "))
+
 if a <= 0 or b <= 0 or c <= 0:
-    print("masukan ditolak: setiap sudut harus lebih dari 0 derajat.")
-elif abs (a + b + c - 180) > le-9:
-    print("masukan tolak: jumlah ketiga sudut harus 180 derajat.")
+    print("Masukan ditolak: setiap sudut harus lebih dari 0 derajat.")
+elif abs((a + b + c) - 180) > 1e-9:
+    print("Masukan ditolak: jumlah ketiga sudut harus 180 derajat.")
 else:
     terbesar = max(a, b, c)
     if terbesar > 90:
-        print("segitiga tumpul")
+        print("Segitiga tumpul")
     elif terbesar == 90:
-        print("segitiga siku-siku")
+        print("Segitiga siku-siku")
     else:
-        print("segitiga lancip")
+        print("Segitiga lancip")
