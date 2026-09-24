@@ -1,5 +1,4 @@
-# Script untuk membuat dan mengisi file README.md secara otomatis
-isi_readme = """# Pertemuan 04 Seleksi Multi-Kondisi dan Validasi Input
+
 
 Nama: Ayu Syarifatu Zahra
 NIM: 2225250043
